@@ -12,8 +12,10 @@ package com.mycompany.gitnetbeans;
 public class test1 {
     
     private String name;
+        
+    private Long id;    
     
-    private Long id;
+    private String apellido;
     
     private String description;
 
