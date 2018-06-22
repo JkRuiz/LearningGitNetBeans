@@ -15,6 +15,8 @@ public class test1 {
     
     private Long id;
     
+    private String apellido;
+    
     private String description;
 
     public test1(String name, Long id, String description) {
@@ -24,11 +26,7 @@ public class test1 {
     }
 
     public String getName() {
-        return name;
-    }
-
-    public void setName(String name){
-        this.name = name;
+        return apellido;
     }
 
     public Long getId() {
