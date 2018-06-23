@@ -10,5 +10,42 @@ package com.mycompany.gitnetbeans;
  * @author jc.ruiz
  */
 public class test2 {
+  
+    private String name;
+    
+    private int cant;
+    
+    private double cost;
+
+    public test2(String name, int cant, double cost) {
+        this.name = name;
+        this.cant = cant;
+        this.cost = cost;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCant() {
+        return cant;
+    }
+
+    public void setCant(int cant) {
+        this.cant = cant;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+    
     
 }
