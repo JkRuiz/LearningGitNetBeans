@@ -10,5 +10,5 @@ package com.mycompany.gitnetbeans;
  * @author jc.ruiz
  */
 public class test2 {
-   private String name;
+  
 }
