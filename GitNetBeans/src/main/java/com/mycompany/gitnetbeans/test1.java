@@ -13,8 +13,6 @@ public class test1 {
     
     private String name;
     
-    private String apellido;
-    
     private Long id;
     
     private String description;
@@ -26,7 +24,11 @@ public class test1 {
     }
 
     public String getName() {
-        return apellido;
+        return name;
+    }
+    
+    public void setName(String name){
+       this.name = name;
     }
 
     public Long getId() {
