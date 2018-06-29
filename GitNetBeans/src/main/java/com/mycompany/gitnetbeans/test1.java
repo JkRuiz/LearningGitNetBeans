@@ -12,7 +12,9 @@ package com.mycompany.gitnetbeans;
 public class test1 {
     
     private String name;
-        
+    
+    private String apellido;
+    
     private Long id;
     
     private String description;
@@ -24,13 +26,9 @@ public class test1 {
     }
 
     public String getName() {
-        return name;
+        return apellido;
     }
 
-    public void setName(String name){
-        this.name = name;
-    }
-    
     public Long getId() {
         return id;
     }
