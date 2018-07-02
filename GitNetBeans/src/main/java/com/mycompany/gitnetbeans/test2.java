@@ -15,16 +15,12 @@ public class test2 {
     
     private int cant;
     
-    private double cost2;
+    private double cost3;
 
     public test2(String name, int cant, double cost) {
         this.name = name;
         this.cant = cant;
-        this.cost2 = cost;
-    }
-
-    public String getName() {
-        return name;
+        this.cost3 = cost;
     }
 
     public void setName(String name) {
