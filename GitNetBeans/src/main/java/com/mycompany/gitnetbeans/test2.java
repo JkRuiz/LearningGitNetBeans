@@ -38,14 +38,5 @@ public class test2 {
     public void setCant(int cant) {
         this.cant = cant;
     }
-
-    public double getCost() {
-        return cost2;
-    }
-
-    public void setCost(double cost) {
-        this.cost2 = cost;
-    }
-    
     
 }
