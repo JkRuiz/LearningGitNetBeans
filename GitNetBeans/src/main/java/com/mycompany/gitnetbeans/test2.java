@@ -15,7 +15,6 @@ public class test2 {
     
     private int cant;
     
-    private double cost2;
     private double cost3;
     
     public test2(String name, int cant, double cost) {
