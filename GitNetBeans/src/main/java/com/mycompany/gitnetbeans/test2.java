@@ -15,8 +15,9 @@ public class test2 {
     
     private int cant;
     
+    private double cost2;
     private double cost3;
-
+    
     public test2(String name, int cant, double cost) {
         this.name = name;
         this.cant = cant;
@@ -25,10 +26,6 @@ public class test2 {
 
     public double getCost() {
         return cost3;
-    }
-    
-    public double getRealCost(){
-        return cost3 * 100;
     }
 
     public void setCost(double cost) {
